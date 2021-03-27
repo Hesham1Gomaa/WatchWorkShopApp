@@ -82,6 +82,20 @@ using WatchWorkShopApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Models;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +104,22 @@ using WatchWorkShopApp.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 17 "C:\Users\hesha\source\repos\WatchWorkShopApp\Pages\Index.razor"
+       
+
+    List<Product> products=new List<Product>();
+    protected override void OnInitialized()
+    {
+        products = productService.GetAllProducts();
+        base.OnInitialized();
+    }
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProductService productService { get; set; }
     }
 }
 #pragma warning restore 1591

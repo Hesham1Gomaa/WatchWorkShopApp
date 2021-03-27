@@ -82,6 +82,20 @@ using WatchWorkShopApp.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Models;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

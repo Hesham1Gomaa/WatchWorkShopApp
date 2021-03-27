@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using WatchWorkShopApp.Services;
 
 namespace WatchWorkShopApp
 {
@@ -18,7 +19,7 @@ namespace WatchWorkShopApp
             builder.RootComponents.Add<App>("#app");
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
-
+            builder.Services.AddTransient<ProductService>();
             await builder.Build().RunAsync();
         }
     }

@@ -1,4 +1,27 @@
 ﻿@page "/"
-
+@inject ProductService productService
 <h1>Products</h1>
+
+<div class="row">
+    @foreach (var prod in products)
+    {
+    <div class="col-4">
+        <img src="@prod.ImageUrl" style="width:100%">
+        <h3>@prod.Name</h3>
+        <p>@prod.Price  $</p>
+    </div>
+    }
+
+</div>
+
+@code {
+
+    List<Product> products=new List<Product>();
+    protected override void OnInitialized()
+    {
+        products = productService.GetAllProducts();
+        base.OnInitialized();
+    }
+
+}
 
