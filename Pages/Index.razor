@@ -5,11 +5,13 @@
 <div class="row">
     @foreach (var prod in products)
     {
-    <div class="col-4">
+    @*<div class="col-4">
         <img src="@prod.ImageUrl" style="width:100%">
         <h3>@prod.Name</h3>
         <p>@prod.Price  $</p>
-    </div>
+    </div>*@
+
+    <ProductItem productItem="prod"></ProductItem>
     }
 
 </div>

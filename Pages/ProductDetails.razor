@@ -1,0 +1,26 @@
+﻿@page "/product/{id:int}"
+@inject ProductService productService
+
+<div class="col-6" >
+    <h1> Product Details</h1>
+    <img src="@ProductItem.ImageUrl" style="width:100%">
+    <h3>
+               @ProductItem.Name  
+    </h3>
+    <p>@ProductItem.Price  $</p>
+    <p>@ProductItem.Description</p>
+</div>
+
+@code {
+
+    Product ProductItem = null;
+
+    protected override void OnInitialized()
+    {
+        ProductItem = productService.GetProdcutByID(Id);
+        base.OnInitialized();
+    }
+
+    [Parameter]
+    public int Id { get; set; }
+}

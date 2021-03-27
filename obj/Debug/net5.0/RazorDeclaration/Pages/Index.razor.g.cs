@@ -96,6 +96,13 @@ using WatchWorkShopApp.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Component;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -105,7 +112,7 @@ using WatchWorkShopApp.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\Users\hesha\source\repos\WatchWorkShopApp\Pages\Index.razor"
+#line 19 "C:\Users\hesha\source\repos\WatchWorkShopApp\Pages\Index.razor"
        
 
     List<Product> products=new List<Product>();

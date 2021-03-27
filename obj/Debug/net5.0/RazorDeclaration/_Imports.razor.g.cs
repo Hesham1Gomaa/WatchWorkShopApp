@@ -96,6 +96,13 @@ using WatchWorkShopApp.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "C:\Users\hesha\source\repos\WatchWorkShopApp\_Imports.razor"
+using WatchWorkShopApp.Component;
+
+#line default
+#line hidden
+#nullable disable
     public partial class _Imports : System.Object
     {
         #pragma warning disable 1998

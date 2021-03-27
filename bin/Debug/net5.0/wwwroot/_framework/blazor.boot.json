@@ -195,11 +195,11 @@
       "mscorlib.dll": "sha256-pfURHvguun0aGHBikgqj1tcIC9yVwDja+omBjH9K0WU=",
       "netstandard.dll": "sha256-zDt6ZaAbtKh1rxzQ7CMtlli234CuRfzZU6Fe9cc2FG4=",
       "System.Private.CoreLib.dll": "sha256-KRDEW\/5qbC0\/9M5IbDGIAM1sKCutWHyq9oLl8WW0c3I=",
-      "WatchWorkShopApp.dll": "sha256-jnC5vsotxIqqJjA8dmkHe51y8wZr0z40R9z1IqaoSuA="
+      "WatchWorkShopApp.dll": "sha256-24tYD3M5yUWOpWt+11lEwYE4ijGyukSlP36Dxby3lGk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "WatchWorkShopApp.pdb": "sha256-PH\/A06BcDb8NRQtOYi1r5JktkB94ddzlAm\/kr24qX4Y="
+      "WatchWorkShopApp.pdb": "sha256-+rHzgrjc5kZ8PWGu57WZCr+mhHCjRxvB3C2HjFYrAeM="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-\/mwFhTTF4Kca8PG7G6rxaGqCueWH9XbWEIK1Fm8GbFg=",

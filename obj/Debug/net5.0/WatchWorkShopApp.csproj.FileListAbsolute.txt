@@ -630,3 +630,7 @@ C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\WatchWorkShopApp.c
 C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\WatchWorkShopApp.dll
 C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\ref\WatchWorkShopApp.dll
 C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\WatchWorkShopApp.pdb
+C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\RazorDeclaration\Component\ProductItem.razor.g.cs
+C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\Razor\Component\ProductItem.razor.g.cs
+C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
+C:\Users\hesha\source\repos\WatchWorkShopApp\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs

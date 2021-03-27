@@ -1,0 +1,15 @@
+﻿
+
+<div class="col-4">
+    <img src="@productItem.ImageUrl" style="width:100%">
+    <a href="/product/@productItem.Id"> @productItem.Name  </a>
+
+    <p>@productItem.Price  $</p>
+</div>
+
+@code {
+
+    [Parameter]
+    public Product productItem { get; set; }
+
+}
